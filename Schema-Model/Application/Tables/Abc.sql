@@ -1,0 +1,7 @@
+CREATE TABLE [Application].[Abc]
+(
+[Id] [int] NOT NULL
+)
+GO
+ALTER TABLE [Application].[Abc] ADD CONSTRAINT [PK__Abc__384653F6] PRIMARY KEY CLUSTERED  ([Id])
+GO
